@@ -1,0 +1,122 @@
+:root {
+  --main-blue: #1e9dd8;
+  --main-blue-transparent: #1e9dd810;
+  --main-blue-hover: #52c8ff;
+  --main-grey: #5d5d5d;
+}
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Nav*/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.nav-primero a {
+  color: var(--main-blue);
+  font-weight: 700;
+}
+
+.nav-primero a:hover {
+  color: var(--main-blue-hover);
+}
+
+.nav-segundo {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-segundo a:hover {
+  color: var(--main-blue);
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/*Inicio*/
+
+#inicio {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.inicio-texto {
+  width: 50%;
+  margin-left: 4rem;
+  margin-top: 15%;
+}
+
+.inicio-titulo {
+  color: var(--main-blue);
+  font-size: 3rem;
+}
+
+.inicio-subtitulo {
+  margin-top: 3rem;
+}
+
+.inicio-imagen img {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+/*Integrantes*/
+
+.integrantes {
+  height: 100vh;
+  background-color: var(--main-blue-transparent);
+  display: flex;
+  justify-content: space-around;
+}
+
+.integrantes-figure {
+  width: 25rem;
+  background-color: white;
+  display: inline-block;
+  height: 80vh;
+  margin-top: 15vh;
+  cursor: pointer;
+}
+
+.integrantes-figure:hover {
+  border-bottom: var(--main-blue) 1rem solid;
+}
+
+.figure-titulo {
+  text-align: center;
+  padding: 1rem;
+  color: var(--main-blue);
+  font-size: 2rem;
+}
+
+.figure-imagen {
+  width: 60%;
+  display: block;
+  margin: auto;
+  height: 40%;
+}
+
+.figure-texto {
+  text-align: center;
+  padding: 1rem;
+  color: var(--main-grey);
+  font-size: 1.5rem;
+}
