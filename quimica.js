@@ -1,0 +1,1 @@
+console.log("En un futuro le voy a meter javascript UwU");
