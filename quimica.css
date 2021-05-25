@@ -1,6 +1,6 @@
 :root {
   --main-blue: #1e9dd8;
-  --main-blue-transparent: #1e9dd810;
+  --main-blue-transparent: #1e9dd818;
   --main-blue-hover: #52c8ff;
   --main-grey: #5d5d5d;
 }
@@ -91,7 +91,7 @@ nav a {
   width: 25rem;
   background-color: white;
   display: inline-block;
-  height: 80vh;
+  height: 70vh;
   margin-top: 15vh;
   cursor: pointer;
 }
