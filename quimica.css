@@ -137,6 +137,10 @@ nav {
 
 /*Integrantes*/
 
+#integrantes {
+  height: 2rem;
+}
+
 .integrantes {
   background-color: var(--main-blue-transparent);
   display: flex;
